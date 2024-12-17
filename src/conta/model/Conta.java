@@ -1,5 +1,7 @@
 package conta.model;
 
+import conta.util.Cores;
+
 //Classe Abstrata => Base para criar outras Classes
 public abstract class Conta {
 
@@ -97,9 +99,9 @@ public abstract class Conta {
 			break;
 		}
 
-		System.out.println("\n\n*************************************");
+		System.out.println(Cores.TEXT_RED +"\n\n*************************************" + Cores.TEXT_RESET);
 		System.out.println("Dados da conta:");
-		System.out.println("*************************************");
+		System.out.println(Cores.TEXT_RED +"*************************************" + Cores.TEXT_RESET);
 		System.out.println("Número da conta: " + this.numero);
 		System.out.println("Agência: " + this.agencia);
 		System.out.println("Tipo da Conta: " + tipo);
