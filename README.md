@@ -25,13 +25,13 @@ git clone https://github.com/RibeiroCaroline/contabancaria.git
 - Navegue até o diretório do projeto e compile o código:
 
 ```bash
-javac Main.java
+javac Menu.java
 ```
 
 - Execute a aplicação:
 
 ```bash
-java Main
+java Menu
 ```
 
 ## Contribuição
